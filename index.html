@@ -24,7 +24,7 @@
   8.+ Create internal or external styles (your choice) to change the font-face (use the Google Web Font) and color of your headings, 
       and create other typographic treatments
   
-  9. Add the necessary links from getbootstrap.com to use the Bootstrap framework and add the following wrapper to your page 
+  9.+ Add the necessary links from getbootstrap.com to use the Bootstrap framework and add the following wrapper to your page 
       starting just beneath the body tag (and closing just before the close body tag):
         <div class="container"> 
           Add resume content here
@@ -84,19 +84,27 @@
       } 
       
     }
+    .text-content {
+      flex: 1; 
+    }
+    .image-container {
+      display: flex;
+      justify-content: flex-end; 
+    }
+
+
   </style>
 
 
     <title>Ray Stettler Resume</title>
         
 </head>
-<body>
+<body style = "margin-top: 50px;"" >
 
   <div class="container">
-    <div class="row">
+    <div class="text-content">
       <h1>Ray Stettler</h1>
 
-      <img src="assets/img/Frame5.png" alt = "cat with a bowtie" style="width: 450px; height: auto;">
 
       <p>I am a senior at the University of Texas at Dallas majoring in ATEC with a CS minor and a 
         certificate in Applied Experience Design and Research. I am hoping to work in UX after I graduate. 
@@ -130,6 +138,12 @@
       <ul>
           <li>UX Club at UTD, AIGA at UTD</li>
       </ul>
+      
+    
+      
+    </div> 
+    <div class="image-container">
+      <img src="assets/img/Frame5.png" alt = "cat with a bowtie" style="width: 450px; height: auto;">
     </div>
   </div>
 
