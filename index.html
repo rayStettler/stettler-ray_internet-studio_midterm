@@ -26,7 +26,7 @@
   
   9. Add the necessary links from getbootstrap.com to use the Bootstrap framework and add the following wrapper to your page 
       starting just beneath the body tag (and closing just before the close body tag):
-        <div class="container">
+        <div class="container"> 
           Add resume content here
         </div>
 
@@ -39,6 +39,10 @@
 
     When you are finished, submit the two links (link to your github.io live page and link to your Github repo) on eLearning
     -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -77,7 +81,8 @@
       }
       a:hover {
         color: #3E3614; 
-      }
+      } 
+      
     }
   </style>
 
@@ -86,43 +91,52 @@
         
 </head>
 <body>
-  <h1>Ray Stettler</h1>
+
+  <div class="container">
+    <div class="row">
+      <h1>Ray Stettler</h1>
+
+      <img src="assets/img/Frame5.png" alt = "cat with a bowtie" style="width: 450px; height: auto;">
+
+      <p>I am a senior at the University of Texas at Dallas majoring in ATEC with a CS minor and a 
+        certificate in Applied Experience Design and Research. I am hoping to work in UX after I graduate. 
+      </p>
 
 
+      <ul>
+          <li>Contact me via email at: <a href="mailto:rps210001@utdallas.edu">rps210001@utdallas.edu</a></li>
+          <li>Check out my portfolio at: <a href="https://ray-stettler-ux.framer.website/">ray-stetter-ux</a></li>
+      </ul>
 
-  <p>I am a senior at the University of Texas at Dallas majoring in ATEC with a CS minor and a 
-    certificate in Applied Experience Design and Research. I am hoping to work in UX after I graduate. 
-  </p>
+      <h2>Education</h2>
+      <ul>
+          <li>The University of Texas at Dallas, August 2022- December 2026</li>
+      </ul>
+      
+      <h2>Employment History</h2>
+      <ul>
+          <li>Kohl's, June 2022, November 2022</li>
+          <li>Flash Photography, May 2023-June 2023</li>
+          <li>Marigot Capital, LLC, July 2023, September 2023</li>
+      </ul>
+
+      <h2>Skills</h2>
+      <ul>
+          <li>Proficient in Photoshop, Illustrator, Figma, and Canva</li>
+          <li>Experience Coding in C, C++, Java, JavaScript, CSS, and HTML</li>
+      </ul>
+
+      <h2>Club Participation</h2>
+      <ul>
+          <li>UX Club at UTD, AIGA at UTD</li>
+      </ul>
+    </div>
+  </div>
 
 
-  <ul>
-      <li>Contact me via email at: <a href="mailto:rps210001@utdallas.edu">rps210001@utdallas.edu</a></li>
-      <li>Check out my portfolio at: <a href="https://ray-stettler-ux.framer.website/">ray-stetter-ux</a></li>
-  </ul>
-
-  <h2>Education</h2>
-  <ul>
-      <li>The University of Texas at Dallas, August 2022- December 2026</li>
-  </ul>
-  
-  <h2>Employment History</h2>
-  <ul>
-      <li>Kohl's, June 2022, November 2022</li>
-      <li>Flash Photography, May 2023-June 2023</li>
-      <li>Marigot Capital, LLC, July 2023, September 2023</li>
-  </ul>
-
-  <h2>Skills</h2>
-  <ul>
-      <li>Proficient in Photoshop, Illustrator, Figma, and Canva</li>
-      <li>Experience Coding in C, C++, Java, JavaScript, CSS, and HTML</li>
-  </ul>
-
-  <h2>Club Participation</h2>
-  <ul>
-      <li>UX Club at UTD, AIGA at UTD</li>
-  </ul>
-
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </body>
 </html>
